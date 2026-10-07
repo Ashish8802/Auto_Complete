@@ -1,0 +1,33 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 100px;
+  background-color: #f1f5f9;
+}
+
+.search-container {
+  width: 500px;
+  max-width: 90%;
+}
+
+.search-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+
+  outline: none;
+}
+
+.search-container input:focus {
+  border-color: #2563eb;
+}
